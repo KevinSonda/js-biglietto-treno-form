@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+<body>
     <input type="number" name="km" id="km" placeholder="km">
-    <input type="number" name="age" id="age" placeholder="età">
+    <select  name="age" id="age" required>
         <option value="">SELEZIONA ETA</option>
-        <option value="0">Maggiorenne</option>
         <option value="1">Minorenne</option>
         <option value="2">Over 65</option>
+    </select>
     <button id="calculate" class="btn btn-sm btn-primary">Calcola</button>
     <button type="reset" class="btn btn-sm btn-outline-secondary">Reseta</button>
-    <div class="message"></div>
+    <div id="message"></div>
     <script src="./js/script.js" type="text/javascript"></script>
-<body>
     
 </body>
 </html>
